@@ -1,3 +1,26 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    flex: 2;
+}
+
+nav {
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    flex: 1;
+}
+
 .main-container {
     display: flex;
     width: 90%;
@@ -5,13 +28,11 @@
 }
 
 .article-text {
-    flex-basis: 60%;
+    position: relative;
+    left: 30px
 }
 
-.viz-content {
-    flex-basis: auto;
-    justify-content: center;
-}
+.viz-content {}
 
 .viz-section {
     margin: 0 auto;
