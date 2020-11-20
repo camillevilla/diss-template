@@ -1,0 +1,18 @@
+.main-container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.article-text {
+    flex-basis: 60%;
+}
+
+.viz-content {
+    flex-basis: auto;
+    justify-content: center;
+}
+
+.viz-section {
+    margin: 0 auto;
+}
